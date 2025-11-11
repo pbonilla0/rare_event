@@ -1,0 +1,5 @@
+stim==1.15.0
+numpy==1.24.4
+PyMatching==2.1.0
+matplotlib==3.5.1
+pytest
