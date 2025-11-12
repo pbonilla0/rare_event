@@ -22,12 +22,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-3. Run the example notebook (recommended) or run a short demo from Python:
-
-```python
-from RareEventSimulator import RareEventSimulator
-# See example.ipynb for usage and recommended parameters
-```
+3. Run the example notebook (recommended)
 
 Running a full experiment
 - Use `run_full_sampling.py` for long runs (it will create `./samples` and `./weights`):
@@ -35,9 +30,6 @@ Running a full experiment
 ```bash
 python run_full_sampling.py --help
 ```
-
-Contributing
-- See `CONTRIBUTING.md` for basic contribution guidelines.
 
 License
 - This project is licensed under the MIT License - see `LICENSE`.
