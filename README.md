@@ -38,7 +38,7 @@ If you use this toolkit in your research, please cite:
 ```bibtex
 @software{rare_event,
   title={Rare Event Simulator},
-  author={Bonilla Ataides, J. Pablo},
+  author={Bonilla Ataides, J. Pablo and Gu, Andi},
   year={2025},
   url={https://github.com/pbonilla0/rare_event}
 }
