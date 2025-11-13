@@ -1,6 +1,6 @@
 # Rare Event Simulator
 
-This repository contains tools to sample rare error configurations and estimate logical error rates for quantum error-correcting circuits using a splitting / Metropolis approach.
+This repository contains tools to sample rare error configurations and estimate logical error rates for quantum error-correcting circuits using a splitting / Metropolis approach. The code follows the work of Bravyi and Vargo (https://arxiv.org/abs/1308.6270).
 
 Contents
 - `RareEventSimulator.py` - core simulator class and helpers.
