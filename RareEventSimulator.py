@@ -122,8 +122,6 @@ def metropolis_one_step(
     obs_mat: np.ndarray,
 ) -> Tuple[ErrorChain, np.ndarray, bool]:
     """Perform one Metropolis step (top-level helper used without RareEventSimulator).
-
-    This version uses the provided RNG consistently.
     """
     e_ix = rng.integers(det_mat.shape[0])
     E_trial = E_in.copy()
